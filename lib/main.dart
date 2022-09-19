@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_transform/page/flipAnimation.dart';
 import 'dart:math';
 
-import 'package:flutter_transform/perspective.dart';
+import 'package:flutter_transform/page/perspective.dart';
 
 
 void main() {
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyPerspective(),
+      //home: MyPerspective(),
+       home: MyFlip(),
     );
   }
 }
